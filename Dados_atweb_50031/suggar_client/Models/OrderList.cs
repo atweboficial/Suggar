@@ -183,7 +183,7 @@ namespace suggar_client.Models
 
     public class PedidoEndereco
     {
-        public string tipo { get; set; }
+        public string tipo { get; set; } 
         public string nome { get; set; }
         public string endereco { get; set; }
         public string numero { get; set; }
