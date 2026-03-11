@@ -71,7 +71,7 @@
               "RelativeDocumentMoniker": "suggar_client\\Form1.cs",
               "ToolTip": "C:\\VS_2022\\atweb_especificos_clientes\\Suggar\\Dados_atweb_50031\\suggar_client\\Form1.cs",
               "RelativeToolTip": "suggar_client\\Form1.cs",
-              "ViewState": "AgIAALkAAAAAAAAAAAAIwAMBAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAALkAAAAAAAAAAAAIwMgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T18:02:38.106Z",
               "EditorCaption": ""
@@ -85,8 +85,7 @@
               "ToolTip": "C:\\VS_2022\\atweb_especificos_clientes\\Suggar\\Dados_atweb_50031\\suggar_client\\Form1.cs [Design]",
               "RelativeToolTip": "suggar_client\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T17:58:31.15Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-01-27T17:58:31.15Z"
             },
             {
               "$type": "Document",
@@ -121,8 +120,7 @@
               "RelativeToolTip": "suggar_client\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-01-27T18:32:09.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-27T18:32:09.511Z"
             },
             {
               "$type": "Document",
