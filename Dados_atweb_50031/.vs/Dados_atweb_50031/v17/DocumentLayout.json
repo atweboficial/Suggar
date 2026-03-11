@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\VS_2022\\atweb_especificos_clientes\\Suggar\\Dados_atweb_50031\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4E18D00E-E54C-4140-8311-F343FB527943}|suggar_client\\suggar_client.csproj|c:\\vs_2022\\atweb_especificos_clientes\\suggar\\dados_atweb_50031\\suggar_client\\models\\orderlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E18D00E-E54C-4140-8311-F343FB527943}|suggar_client\\suggar_client.csproj|solutionrelative:suggar_client\\models\\orderlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E18D00E-E54C-4140-8311-F343FB527943}|suggar_client\\suggar_client.csproj|c:\\vs_2022\\atweb_especificos_clientes\\suggar\\dados_atweb_50031\\suggar_client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E18D00E-E54C-4140-8311-F343FB527943}|suggar_client\\suggar_client.csproj|solutionrelative:suggar_client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -66,6 +70,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "OrderList.cs",
+              "DocumentMoniker": "C:\\VS_2022\\atweb_especificos_clientes\\Suggar\\Dados_atweb_50031\\suggar_client\\Models\\OrderList.cs",
+              "RelativeDocumentMoniker": "suggar_client\\Models\\OrderList.cs",
+              "ToolTip": "C:\\VS_2022\\atweb_especificos_clientes\\Suggar\\Dados_atweb_50031\\suggar_client\\Models\\OrderList.cs",
+              "RelativeToolTip": "suggar_client\\Models\\OrderList.cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAtwLkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T13:17:58.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\VS_2022\\atweb_especificos_clientes\\Suggar\\Dados_atweb_50031\\suggar_client\\Form1.cs",
               "RelativeDocumentMoniker": "suggar_client\\Form1.cs",
@@ -78,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\VS_2022\\atweb_especificos_clientes\\Suggar\\Dados_atweb_50031\\suggar_client\\Form1.cs",
               "RelativeDocumentMoniker": "suggar_client\\Form1.cs",
@@ -89,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "packages.config",
               "DocumentMoniker": "C:\\VS_2022\\atweb_especificos_clientes\\Suggar\\Dados_atweb_50031\\suggar_client\\packages.config",
               "RelativeDocumentMoniker": "suggar_client\\packages.config",
@@ -101,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Dados_atweb_50031",
               "DocumentMoniker": "C:\\VS_2022\\atweb_especificos_clientes\\Suggar\\Dados_atweb_50031\\Dados_atweb_50031\\Dados_atweb_50031.csproj",
               "RelativeDocumentMoniker": "Dados_atweb_50031\\Dados_atweb_50031.csproj",
@@ -112,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "App.config",
               "DocumentMoniker": "C:\\VS_2022\\atweb_especificos_clientes\\Suggar\\Dados_atweb_50031\\suggar_client\\App.config",
               "RelativeDocumentMoniker": "suggar_client\\App.config",
@@ -124,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ModelDados.Context.cs",
               "DocumentMoniker": "C:\\VS_2022\\atweb_especificos_clientes\\Suggar\\Dados_atweb_50031\\suggar_client\\Models\\ModelDados.Context.cs",
               "RelativeDocumentMoniker": "suggar_client\\Models\\ModelDados.Context.cs",
@@ -136,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Param.cs",
               "DocumentMoniker": "C:\\VS_2022\\atweb_especificos_clientes\\Suggar\\Dados_atweb_50031\\suggar_client\\Models\\Param.cs",
               "RelativeDocumentMoniker": "suggar_client\\Models\\Param.cs",
@@ -148,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EmpresasModel.cs",
               "DocumentMoniker": "C:\\VS_2022\\atweb_especificos_clientes\\Suggar\\Dados_atweb_50031\\suggar_client\\Models\\EmpresasModel.cs",
               "RelativeDocumentMoniker": "suggar_client\\Models\\EmpresasModel.cs",
@@ -160,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ParceiroATweb.cs",
               "DocumentMoniker": "C:\\VS_2022\\atweb_especificos_clientes\\Suggar\\Dados_atweb_50031\\suggar_client\\Models\\ParceiroATweb.cs",
               "RelativeDocumentMoniker": "suggar_client\\Models\\ParceiroATweb.cs",
@@ -172,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\VS_2022\\atweb_especificos_clientes\\Suggar\\Dados_atweb_50031\\Dados_atweb_50031\\Class1.cs",
               "RelativeDocumentMoniker": "Dados_atweb_50031\\Class1.cs",
