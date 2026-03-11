@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3a8d30de6a0e42fea8b75ab8d539cc39" Name="Diagram1">
+        <EntityTypeShape EntityType="atweb_50031Model.AcoesReparo" Width="1.5" PointX="43.5" PointY="191.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.AgendamentosEnviosTemplates" Width="1.5" PointX="28.5" PointY="204" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.AgendamentosEnviosVariaveisTemplates" Width="1.5" PointX="32.75" PointY="210" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ArvoreDiagnosticos" Width="1.5" PointX="1.5" PointY="126.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ArvoreDiagnosticosFamilias" Width="1.5" PointX="15" PointY="150.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ArvoreDiagnosticosPerguntas" Width="1.5" PointX="3.75" PointY="125.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ArvoreDiagnosticosProdutos" Width="1.5" PointX="12.25" PointY="156.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Atendimentos" Width="1.5" PointX="6" PointY="192.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.AtendimentosAnexos" Width="1.5" PointX="13.25" PointY="204.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.AtendimentosAtendimentos" Width="1.5" PointX="8.25" PointY="213.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.AtendimentosChats" Width="1.5" PointX="13.25" PointY="207" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.AtendimentosDadosMarketplaces" Width="1.5" PointX="8.25" PointY="224" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.AtendimentosDefeitosReclamados" Width="1.5" PointX="14.25" PointY="200.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.AtendimentosEntidades" Width="1.5" PointX="14.25" PointY="197" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.AtendimentosEntidadesContatos" Width="1.5" PointX="16.5" PointY="189.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.AtendimentosInteracoes" Width="1.5" PointX="16.25" PointY="205" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.AtendimentosInteracoesAnexos" Width="1.5" PointX="27.5" PointY="209.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.AtendimentosOrdensServicos" Width="1.5" PointX="13.25" PointY="210.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.AtendimentosProdutos" Width="1.5" PointX="17.25" PointY="200.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.AtendimentosSeguidores" Width="1.5" PointX="8.25" PointY="233.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.AtendimentosTags" Width="1.5" PointX="16.25" PointY="212.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Atividades" Width="1.5" PointX="17.25" PointY="192.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Audit" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Automacoes" Width="1.5" PointX="12.75" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.AutomacoesAcoes" Width="1.5" PointX="15" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.AutomacoesCondicoes" Width="1.5" PointX="15" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.AutomacoesTrigger" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.AvaliacoesAtendimentos" Width="1.5" PointX="19.25" PointY="205.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.BackupsTextos" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.BlackList" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.BlackListEnvioAutomatico" Width="1.5" PointX="2.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Campanhas" Width="1.5" PointX="12" PointY="151" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.CampanhasContatos" Width="1.5" PointX="14.25" PointY="192.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.CamposPersonalizados" Width="1.5" PointX="23.25" PointY="164.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.CamposPersonalizadosAtendimentos" Width="1.5" PointX="19.25" PointY="211.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.CamposPersonalizadosCondicoes" Width="1.5" PointX="25.5" PointY="163.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.CamposPersonalizadosContatos" Width="1.5" PointX="25.5" PointY="169.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.CamposPersonalizadosEntidades" Width="1.5" PointX="25.5" PointY="151.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.CamposPersonalizadosItems" Width="1.5" PointX="25.5" PointY="166.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.CamposPersonalizadosOrdensServicos" Width="1.5" PointX="25.5" PointY="190.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.CamposPersonalizadosOrdensServicosProdutos" Width="1.5" PointX="39.75" PointY="197.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.CamposPersonalizadosPedidos" Width="1.5" PointX="42.75" PointY="203.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Carrinho" Width="1.5" PointX="22.25" PointY="218.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.CarrinhoConversas" Width="1.5" PointX="6" PointY="127.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.CarrinhoConversasVariacoes" Width="1.5" PointX="8.25" PointY="128.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Catalogos" Width="1.5" PointX="3" PointY="213.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.CatalogosArquivos" Width="1.5" PointX="8.25" PointY="209.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.CatalogosConjuntos" Width="1.5" PointX="10.5" PointY="188.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.CatalogosConjuntosPecas" Width="1.5" PointX="13.25" PointY="187.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.CatalogosProdutos" Width="1.5" PointX="5.25" PointY="218.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.CatalogosProdutosEstruturasVersionadasReferencias" Width="1.5" PointX="7.5" PointY="227.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.CatalogosSistemas" Width="1.5" PointX="8.25" PointY="204.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Chamadas" Width="1.5" PointX="3.75" PointY="94.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Chatbots" Width="1.5" PointX="1.5" PointY="86.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatbotsCondicoes" Width="1.5" PointX="20.25" PointY="152.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatbotsIntencoes" Width="1.5" PointX="18" PointY="161.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatbotsIntencoesFrases" Width="1.5" PointX="20.25" PointY="170.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatbotsIntencoesOpcoes" Width="1.5" PointX="20.25" PointY="148.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatbotsVariaveis" Width="1.5" PointX="15.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatbotsVariaveisSeletores" Width="1.5" PointX="20.25" PointY="145.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatGPT" Width="1.5" PointX="6" PointY="186.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatGPTDados" Width="1.5" PointX="8.25" PointY="192.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Chats" Width="1.5" PointX="20.25" PointY="189.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatsAudit" Width="1.5" PointX="17.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatsCanaisUsuarios" Width="1.5" PointX="3.75" PointY="98" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatsFallbacks" Width="1.5" PointX="22.5" PointY="176.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatsMensagens" Width="1.5" PointX="39.75" PointY="201.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatsMensagensAssistente" Width="1.5" PointX="22.5" PointY="173.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatsMensagensNaoLidas" Width="1.5" PointX="22.5" PointY="170.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatsMotivosPausas" Width="1.5" PointX="7.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatsOnlineUsers" Width="1.5" PointX="10" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatsOnlineUsersChatArea" Width="1.5" PointX="0.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatsOnlineUsersNotasFiscaisPendenciasDevolucao" Width="1.5" PointX="5.25" PointY="248.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatsOnlineUsersOrdensServicos" Width="1.5" PointX="25.5" PointY="186.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatsPausas" Width="1.5" PointX="10" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatsTags" Width="1.5" PointX="31.5" PointY="206.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatsTokens" Width="1.5" PointX="2.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatsTranferencias" Width="1.5" PointX="34.5" PointY="205.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChatsVariaveis" Width="1.5" PointX="22.5" PointY="225.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Checklists" Width="1.5" PointX="29.25" PointY="173.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChecklistsFamiliasProdutos" Width="1.5" PointX="34.5" PointY="175.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChecklistsGrupos" Width="1.5" PointX="31.5" PointY="171.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChecklistsItens" Width="1.5" PointX="33.75" PointY="171.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChecklistsItensOpcoes" Width="1.5" PointX="36" PointY="171.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChecklistsItensStatusOportunidades" Width="1.5" PointX="22.25" PointY="251.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChecklistsItensStatusOportunidadesOpcoes" Width="1.5" PointX="24.5" PointY="251.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ChecklistsProdutos" Width="1.5" PointX="34.5" PointY="179.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Comunicados" Width="1.5" PointX="3" PointY="219.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ComunicadosFamilias" Width="1.5" PointX="5.25" PointY="221.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ComunicadosPostosAutorizados" Width="1.5" PointX="8.25" PointY="220.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ComunicadosProdutos" Width="1.5" PointX="8.25" PointY="217.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ConclusoesNaoConformidades" Width="1.5" PointX="23" PointY="245.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.CondicoesPagamento" Width="1.5" PointX="4.5" PointY="131.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Consumidores" Width="1.5" PointX="9.75" PointY="157.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ConsumidoresComentarios" Width="1.5" PointX="12" PointY="134.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Contatos" Width="1.5" PointX="3.75" PointY="165.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ContatosComentarios" Width="1.5" PointX="6" PointY="180.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ContatosFavoritos" Width="1.5" PointX="6" PointY="183.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ContatosInteracoes" Width="1.5" PointX="3" PointY="203.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ContatosLayoutImportacao" Width="1.5" PointX="25.5" PointY="159.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ContatosTags" Width="1.5" PointX="11.25" PointY="175.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ContratosCorreios" Width="1.5" PointX="5.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.CuponsDesconto" Width="1.5" PointX="35.25" PointY="209.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.DefeitosConstatados" Width="1.5" PointX="3.75" PointY="178.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.DefeitosConstatadosFamilias" Width="1.5" PointX="14" PointY="176.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.DefeitosConstatadosRestritos" Width="1.5" PointX="17.25" PointY="179" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.DefeitosConstatadosRestritosFamiliasPecas" Width="1.5" PointX="24.5" PointY="222.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.DefeitosReclamados" Width="1.5" PointX="3.75" PointY="182.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.DefeitosReclamadosFamilias" Width="1.5" PointX="15" PointY="179.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.DePara" Width="1.5" PointX="13.25" PointY="213.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.DigitaçãoTramites" Width="1.5" PointX="7.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Documentos" Width="1.5" PointX="3" PointY="199.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.DocumentosProdutos" Width="1.5" PointX="11.25" PointY="193.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.EnderecoProduto" Width="1.5" PointX="16.25" PointY="215.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Entidades" Width="1.5" PointX="6.75" PointY="136.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.EntidadesComentarios" Width="1.5" PointX="9" PointY="146.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.EntidadesDadosExternos" Width="1.5" PointX="9" PointY="143.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.EntidadesEnderecosAdicionais" Width="1.5" PointX="4.5" PointY="135.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.EntidadesInteracoes" Width="1.5" PointX="3" PointY="207.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.EntidadesSegmentos" Width="1.5" PointX="12" PointY="144.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.EntidadesTabelasPrecosVenda" Width="1.5" PointX="12" PointY="147.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.EntidadesTags" Width="1.5" PointX="12.25" PointY="162" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Estados" Width="1.5" PointX="15.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.EstoquePosto" Width="1.5" PointX="13.25" PointY="219.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Estruturas" Width="1.5" PointX="16.25" PointY="220" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.EstruturasVersionadas" Width="1.5" PointX="25.25" PointY="209.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.EstruturasVersionadasCapa" Width="1.5" PointX="9.75" PointY="240" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ExcessoesMaoDeObra" Width="1.5" PointX="25.25" PointY="174.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Extratos" Width="1.5" PointX="28.5" PointY="193.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ExtratosLotes" Width="1.5" PointX="9" PointY="196.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ExtratosLotesTags" Width="1.5" PointX="11.25" PointY="196.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.FamiliasPecas" Width="1.5" PointX="8.75" PointY="249.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.FamiliasProdutos" Width="1.5" PointX="6.75" PointY="172.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Files" Width="1.5" PointX="0.75" PointY="197.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Filtros" Width="1.5" PointX="15.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.FiltrosCampos" Width="1.5" PointX="18" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.FinalidadesAtividades" Width="1.5" PointX="15" PointY="183.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.FinalidadesOrdensServicos" Width="1.5" PointX="21" PointY="156" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.FinalidadesOrdensServicosGerais" Width="1.5" PointX="21" PointY="228.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.FinalidadesOrdensServicosServicosAdicionaisObrigatorios" Width="1.5" PointX="37.5" PointY="188.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.FinalidadesOrdensServicosServicosGeraisAdicionaisObrigatorios" Width="1.5" PointX="31.5" PointY="232.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.FluxosAtendimentoMessagingCenter" Width="1.5" PointX="15.75" PointY="185.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.FluxosAtendimentoMessagingCenterEtapas" Width="1.5" PointX="18" PointY="185.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.FluxosAtendimentoMessagingCenterPadraoUsuarios" Width="1.5" PointX="18" PointY="157.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.FormulariosHTML" Width="1.5" PointX="3" PointY="242.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.GoogleAPIKeys" Width="1.5" PointX="4.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.GruposCallCenter" Width="1.5" PointX="3.75" PointY="104" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.GruposCallCenterUsuarios" Width="1.5" PointX="6" PointY="104.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.IAS" Width="1.5" PointX="3.75" PointY="188.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.IASCacheRespostas" Width="1.5" PointX="17.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.IASConsumoTokens" Width="1.5" PointX="19.25" PointY="215.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.IntegracoesMarketplaces" Width="1.5" PointX="3.75" PointY="224.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.IntegracoesMarketplacesDados" Width="1.5" PointX="6" PointY="231" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.JobItem" Width="1.5" PointX="42.75" PointY="199.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Jobs" Width="1.5" PointX="40.5" PointY="193.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Labels" Width="1.5" PointX="17.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.LinhasProdutos" Width="1.5" PointX="6.75" PointY="177.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ModelosAtendimentos" Width="1.5" PointX="6" PointY="107.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ModelosOrdensServicos" Width="1.5" PointX="17.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.MotivosCancelamentosOrdensServicos" Width="1.5" PointX="21" PointY="186.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.MotivosEnviosPecas" Width="1.5" PointX="45.5" PointY="216.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.MotivosPerdasOportunidades" Width="1.5" PointX="20" PointY="225.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.MotivosPerdasOportunidadesStatusRestritos" Width="1.5" PointX="23.25" PointY="238.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.MovtoEstoque" Width="1.5" PointX="44.75" PointY="208.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.NaoConformidades" Width="1.5" PointX="25.25" PointY="213.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.NaoConformidadesAtendimentos" Width="1.5" PointX="13.25" PointY="217.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.NaoConformidadesEntidades" Width="1.5" PointX="27.5" PointY="219.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.NaoConformidadesOrdensServicos" Width="1.5" PointX="28.5" PointY="200.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.NaturezaOperacao" Width="1.5" PointX="4.5" PointY="141.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.NotasFiscais" Width="1.5" PointX="39.75" PointY="211.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.NotasFiscaisOcorrencias" Width="1.5" PointX="42" PointY="212" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.NotasFiscaisPecas" Width="1.5" PointX="42" PointY="209" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.NotasFiscaisPendenciasDevolucao" Width="1.5" PointX="3" PointY="251" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.NotasFiscaisPendenciasDevolucaoAutorizacaoPostagem" Width="1.5" PointX="5.25" PointY="251.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.NotasFiscaisPendenciasDevolucaoInteracoes" Width="1.5" PointX="5.25" PointY="254.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.NotasFiscaisPendenciasDevolucaoPecas" Width="1.5" PointX="48" PointY="226.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.NotasFiscaisProdutos" Width="1.5" PointX="45" PointY="212.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Notificacoes" Width="1.5" PointX="17.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.NotificacoesPreferenciasUsuarios" Width="1.5" PointX="6.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.NotificacoesToastTimer" Width="1.5" PointX="19.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.NPS" Width="1.5" PointX="9.75" PointY="136.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.NPSRegistros" Width="1.5" PointX="12" PointY="165.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.NumerosWhatsApp" Width="1.5" PointX="1.5" PointY="92.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.NumerosWhatsAppSubFilasSQS" Width="1.5" PointX="3.75" PointY="91" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Oportunidades" Width="1.5" PointX="22.25" PointY="205.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OportunidadesAtualizacoesProdutos" Width="1.5" PointX="19.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OportunidadesAtualizacoesStatus" Width="1.5" PointX="27.5" PointY="211.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OportunidadesChecklists" Width="1.5" PointX="30.5" PointY="209.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OportunidadesDistribuicaoAutomatica" Width="1.5" PointX="27.5" PointY="216" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OportunidadesInteracoes" Width="1.5" PointX="30.5" PointY="214" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OportunidadesOrigens" Width="1.5" PointX="20" PointY="177.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OportunidadesParametrosGatewayPagamento" Width="1.5" PointX="3.75" PointY="114.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OportunidadesProdutos" Width="1.5" PointX="20" PointY="172.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OportunidadesProdutosComplementares" Width="1.5" PointX="0.75" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OportunidadesProdutosComplementaresProdutos" Width="1.5" PointX="3" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OportunidadesProdutosPacotesServicos" Width="1.5" PointX="5.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OportunidadesProdutosPacotesServicosFamilias" Width="1.5" PointX="8" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OportunidadesProdutosPacotesServicosProdutos" Width="1.5" PointX="8" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OportunidadesProdutosPacotesServicosServicos" Width="1.5" PointX="34.5" PointY="113.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OportunidadesTags" Width="1.5" PointX="30.5" PointY="218.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OrdensServicos" Width="1.5" PointX="23.25" PointY="179.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OrdensServicosAnexos" Width="1.5" PointX="25.5" PointY="195" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OrdensServicosApontamentos" Width="1.5" PointX="28.5" PointY="187.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OrdensServicosAuditoria" Width="1.5" PointX="25.5" PointY="204.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OrdensServicosAutorizacoes" Width="1.5" PointX="25.5" PointY="199.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OrdensServicosChecklists" Width="1.5" PointX="31.5" PointY="187.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OrdensServicosChecks" Width="1.5" PointX="31.5" PointY="195.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OrdensServicosDadosExternos" Width="1.5" PointX="25.5" PointY="225.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OrdensServicosDefeitosConstatados" Width="1.5" PointX="28.5" PointY="183.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OrdensServicosDefeitosReclamados" Width="1.5" PointX="31.5" PointY="183.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OrdensServicosEntidades" Width="1.5" PointX="25.5" PointY="182.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OrdensServicosInteracoes" Width="1.5" PointX="25.5" PointY="238.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OrdensServicosInteracoesAuditoriaLeitura" Width="1.5" PointX="27.75" PointY="239.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OrdensServicosPecas" Width="1.5" PointX="45.75" PointY="201.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OrdensServicosPostosAutorizadosAdicionais" Width="1.5" PointX="34.5" PointY="191.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OrdensServicosProdutos" Width="1.5" PointX="34.5" PointY="194" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OrdensServicosServicosAdicionais" Width="1.5" PointX="31.5" PointY="199.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OrdensServicosTags" Width="1.5" PointX="34.5" PointY="188.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OrdensServicosTecnicosAdicionais" Width="1.5" PointX="34.5" PointY="185.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OrdensServicosVeiculos" Width="1.5" PointX="34.5" PointY="182.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OrigensAtendimentos" Width="1.5" PointX="19.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.OrigensNaoConformidades" Width="1.5" PointX="23" PointY="248.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PaineisAtendimentos" Width="1.5" PointX="10.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PaineisAtendimentosPadraoUsuarios" Width="1.5" PointX="13" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PaineisAtendimentosStatusAtendimentos" Width="1.5" PointX="13" PointY="66.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PaineisAtendimentosStatusOrdensServicos" Width="1.5" PointX="23.25" PointY="122.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PaineisOportunidades" Width="1.5" PointX="20" PointY="245.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PaineisOportunidadesEditores" Width="1.5" PointX="22.25" PointY="255.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PaineisOportunidadesFluxosAtendimento" Width="1.5" PointX="23.25" PointY="228.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PaineisOportunidadesPadraoUsuarios" Width="1.5" PointX="22.25" PointY="257.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PaineisOportunidadesStatusOportunidades" Width="1.5" PointX="25.25" PointY="248.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PaineisOportunidadesUsuarios" Width="1.5" PointX="22.25" PointY="260.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PaineisOrdensServicos" Width="1.5" PointX="10.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PaineisOrdensServicosPadraoUsuarios" Width="1.5" PointX="13" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Paises" Width="1.5" PointX="19.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ParametrosGlobais" Width="1.5" PointX="6.75" PointY="84.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ParametrosLojaVirtual" Width="1.5" PointX="3" PointY="257.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ParametrosNegocios" Width="1.5" PointX="3.75" PointY="118.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Pecas" Width="1.5" PointX="11" PointY="204.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PecasAdicionais" Width="1.5" PointX="13.25" PointY="234.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PecasDefeitos" Width="1.5" PointX="13.25" PointY="238.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Pedidos" Width="1.5" PointX="37.5" PointY="194.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PedidosCondicoesEspeciais" Width="1.5" PointX="39.75" PointY="221.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PedidosInteracoes" Width="1.5" PointX="39.75" PointY="225.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PedidosPecas" Width="1.5" PointX="47.75" PointY="208.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PedidosProdutos" Width="1.5" PointX="48.75" PointY="200.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PostosAutorizados" Width="1.5" PointX="0.75" PointY="175.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PostosAutorizadosAnexos" Width="1.5" PointX="3" PointY="195.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PostosAutorizadosCidadesAtendidas" Width="1.5" PointX="3" PointY="190.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PostosAutorizadosComentarios" Width="1.5" PointX="3" PointY="273.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PostosAutorizadosFinalidadesOrdensServicos" Width="1.5" PointX="28.25" PointY="170.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PostosAutorizadosFinalidadesOrdensServicosGerais" Width="1.5" PointX="38.25" PointY="216.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PostosAutorizadosLinhas" Width="1.5" PointX="12" PointY="182" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PostosAutorizadosTabelasPrecosVenda" Width="1.5" PointX="6.75" PointY="169.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PostosAutorizadosUnidades" Width="1.5" PointX="21" PointY="183" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.PostosAutorizadosUsuarios" Width="1.5" PointX="3" PointY="276.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Produtos" Width="1.5" PointX="9" PointY="170.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ProdutosConsumidores" Width="1.5" PointX="12" PointY="199" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ProdutosSimilares" Width="1.5" PointX="11.25" PointY="178.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.RastreamentoTecnicos" Width="1.5" PointX="28.5" PointY="179.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ReferenciasProdutosEntidades" Width="1.5" PointX="12.25" PointY="159.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Refurbished" Width="1.5" PointX="31.5" PointY="179.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Regioes" Width="1.5" PointX="2.25" PointY="137" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Relatorios" Width="1.5" PointX="12.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.RelatoriosUsuarios" Width="1.5" PointX="15" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Representantes" Width="1.5" PointX="1.5" PointY="165.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Revendedores" Width="1.5" PointX="7.5" PointY="237" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.RevendedoresComentarios" Width="1.5" PointX="9.75" PointY="236.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Seg_Apolices" Width="1.5" PointX="3.75" PointY="228" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Seg_Beneficiarios" Width="1.5" PointX="8.25" PointY="263.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Seg_Coberturas" Width="1.5" PointX="3.75" PointY="233.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Seg_ItensProdutos" Width="1.5" PointX="3.75" PointY="237.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Seg_Pagamentos" Width="1.5" PointX="6" PointY="257.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Seg_Segurados" Width="1.5" PointX="6" PointY="261.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.SegmentosEntidades" Width="1.5" PointX="9.75" PointY="140.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Servicos" Width="1.5" PointX="32.25" PointY="221.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ServicosAdicionais" Width="1.5" PointX="29.25" PointY="222.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ServicosAdicionaisProdutosRestritos" Width="1.5" PointX="37.5" PointY="191.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ServicosAdicionaisTiposPostosAutorizadosRestritos" Width="1.5" PointX="31.5" PointY="226" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ServicosContratosCorreios" Width="1.5" PointX="8" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ServicosCorreios" Width="1.5" PointX="5.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.ServicosFinalidadesOrdensServicosGerais" Width="1.5" PointX="34.5" PointY="229.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.SignalRConnectionAbas" Width="1.5" PointX="19.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.SignalRConnectionId" Width="1.5" PointX="0.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.SLA" Width="1.5" PointX="21" PointY="179.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.StatusAtendimentos" Width="1.5" PointX="1.5" PointY="120.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.StatusOportunidades" Width="1.5" PointX="20" PointY="249.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.StatusOrdensServicos" Width="1.5" PointX="21" PointY="241.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.StatusPedidos" Width="1.5" PointX="35.25" PointY="213" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.TabelasFretes" Width="1.5" PointX="35.25" PointY="216.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.TabelasPrecos" Width="1.5" PointX="1.5" PointY="160.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.TabelasPrecosPecas" Width="1.5" PointX="19.25" PointY="222" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.TabelasPrecosProdutos" Width="1.5" PointX="11.25" PointY="170.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.TagsMessagingCenter" Width="1.5" PointX="9" PointY="182.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Tecnicos" Width="1.5" PointX="3.75" PointY="261.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.TemplatesMeta" Width="1.5" PointX="9.75" PointY="150.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.TemplatesMetaBotoes" Width="1.5" PointX="12" PointY="140.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.TemplatesMetaFavoritos" Width="1.5" PointX="12" PointY="137.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.TemplatesMetaValores" Width="1.5" PointX="2.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.TemplatesMetaVariaveis" Width="1.5" PointX="30.5" PointY="229" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.TiposAtendimentos" Width="1.5" PointX="3.75" PointY="270" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.TiposDocumentos" Width="1.5" PointX="0.75" PointY="213.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.TiposEntidades" Width="1.5" PointX="4.5" PointY="147.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.TiposLancamentosAvulsos" Width="1.5" PointX="26.25" PointY="179" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.TiposOcorrencias" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.TiposOcorrenciasTiposAtendimentosRestritos" Width="1.5" PointX="7" PointY="133.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.TiposOcorrenciasUsuariosReaberturaRestritos" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.TiposPedidos" Width="1.5" PointX="35.25" PointY="221.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.TiposPostosAutorizados" Width="1.5" PointX="1.5" PointY="223.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Transportadoras" Width="1.5" PointX="4.5" PointY="150.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.UsuariosUsuariosResponsaveis" Width="1.5" PointX="20.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.Veiculos" Width="1.5" PointX="32.25" PointY="176" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.VisualizacaoConsultaPublica" Width="1.5" PointX="3" PointY="285" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.VisualizacaoConsultaPublicaCampos" Width="1.5" PointX="5.25" PointY="283.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.VisualizacaoConsultaPublicaEstilizacao" Width="1.5" PointX="5.25" PointY="286.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.VisualizacaoConsultaPublicaLinks" Width="1.5" PointX="42.75" PointY="194.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.WebScraper" Width="1.5" PointX="8.25" PointY="121.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atweb_50031Model.WebScraperCampos" Width="1.5" PointX="10.5" PointY="122.75" IsExpanded="true" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosPecas_AcoesReparo" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AgendamentosEnviosTemplates_CampanhasContatos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AgendamentosEnviosTemplates_Chats" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AgendamentosEnviosTemplates_Contatos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AgendamentosEnviosTemplates_TemplatesMeta" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AgendamentosEnviosVariaveisTemplates_AgendamentosEnviosTemplates" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatsMensagens_AgendamentosEnviosTemplates" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AgendamentosEnviosVariaveisTemplates_TemplatesMetaVariaveis" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ArvoreDiagnosticosFamilias_ArvoreDiagnosticos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ArvoreDiagnosticosPerguntas_ArvoreDiagnosticos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ArvoreDiagnosticosProdutos_ArvoreDiagnosticos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ArvoreDiagnosticosFamilias_FamiliasProdutos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_ArvoreDiagnosticosPerguntas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ArvoreDiagnosticosProdutos_Produtos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_Consumidores" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_Contatos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_DefeitosConstatados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_DefeitosReclamados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_Files1" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_Files2" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_Files3" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_Files4" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_Files5" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_Files6" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_Files7" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_Files8" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_Files9" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_GruposCallCenter" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_IntegracoesMarketplaces" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_Produtos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_Revendedores" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_Seg_Apolices" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_Seg_Coberturas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_Seg_ItensProdutos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_StatusAtendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_Tecnicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_TiposAtendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atendimentos_Transportadoras" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosAnexos_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosAtendimentos_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosAtendimentos_Atendimentos_2" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosCamposPersonalizados_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosChats_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosDadosExternos_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosDefeitosReclamados_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosEntidades_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosOrdensServicos_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosProdutos_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosSeguidores_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosTags_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosTramites_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atividades_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AvaliacoesAtendimentos_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CampanhasContatos_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Chats_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_EnderecoProduto_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_IASConsumoTokens_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NaoConformidadesAtendimentos_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Oportunidades_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pedidos_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_VisualizacaoConsultaPublicaLinks_Atendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosAnexos_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosChats_Chats" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosDefeitosReclamados_AtendimentosProdutos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosDefeitosReclamados_DefeitosReclamados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosEntidades_Entidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosEntidadesContatos_AtendimentosEntidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosEntidadesContatos_Contatos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosInteracoes_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosInteracoes_GruposCallCenter" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosInteracoes_StatusAtendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosInteracoesAnexos_AtendimentosInteracoes" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosInteracoesAnexos_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosOrdensServicos_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosProdutos_DefeitosReclamados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosProdutos_Produtos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosTags_TagsMessagingCenter" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atividades_Chats" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atividades_Contatos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atividades_Entidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atividades_FinalidadesAtividades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atividades_Oportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Atividades_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AutomacoesAcoes_Automacoes" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AutomacoesFiltros_Automacoes" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AvaliacoesAtendimentos_Chats" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AvaliacoesAtendimentos_Contatos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AvaliacoesAtendimentos_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Campanhas_NumerosWhatsApp" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Campanhas_TemplatesMeta" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CampanhasContatos_Campanhas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Chats_Campanhas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CampanhasContatos_Contatos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CampanhasContatos_Oportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_AtendimentosCamposPersonalizados_CamposPersonalizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CamposPersonalizadosCondicoes_CamposPersonalizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CamposPersonalizadosContatos_CamposPersonalizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CamposPersonalizadosEntidades_CamposPersonalizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CamposPersonalizadosItems_CamposPersonalizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CamposPersonalizadosLancamentosOrdensServicos_CamposPersonalizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CamposPersonalizadosPedidos_CamposPersonalizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ContatosLayoutImportacao_CamposPersonalizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosCamposPersonalizados_CamposPersonalizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CamposPersonalizadosContatos_Contatos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CamposPersonalizadosEntidades_Entidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosCamposPersonalizados_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CamposPersonalizadosLancamentosOrdensServicos_OrdensServicosProdutos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CamposPersonalizadosPedidos_Pedidos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Carrinho_Pecas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Carrinho_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Carrinho_TabelasPrecos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Carrinho_Tecnicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CarrinhoConversas_Contatos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CarrinhoConversasVariacoes_CarrinhoConversas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Catalogos_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CatalogosArquivos_Catalogos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CatalogosProdutos_Catalogos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CatalogosSistemas_Catalogos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CatalogosArquivos_CatalogosArquivos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CatalogosArquivos_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CatalogosConjuntos_CatalogosSistemas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CatalogosConjuntos_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CatalogosConjuntos_SVGFiles" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CatalogosConjuntosPecas_CatalogosConjuntos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CatalogosConjuntosPecas_Pecas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CatalogosProdutos_Produtos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CatalogosProdutosEstruturasVersionadasReferencias_CatalogosProdutos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CatalogosSistemas_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Chamadas_NumerosWhatsApp" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_BotsIntencoes_Bots" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Chatbots_Chatbots" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NumerosWhatsApp_Bots" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatbotsCondicoes_ChatbotsIntencoes" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_BotsIntencoesTermos_BotsIntencoes" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatbotsIntencoes_TemplatesMeta" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatbotsIntencoesOpcoes_ChatbotsIntencoes" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatbotsIntencoesOpcoes_ChatbotsIntencoesDestino" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatbotsVariaveisSeletores_ChatbotsIntencoes" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Chats_ChatbotsIntencoes" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatGPT_IA" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatGPTDados_ChatGPT" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_IASConsumoTokens_ChatGPT" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_WebScraperEcom_ChatGPT" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatGPTDados_Documentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Chats_Consumidores" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Chats_Contatos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Chats_FluxosAtendimentoMessagingCenterEtapas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Chats_GruposCallCenter" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Chats_GruposCallCenterPai" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Chats_NumerosWhatsApp" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Chats_Oportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Chats_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Chats_Produtos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Chats_Revendedores" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatsEtiquetas_Chats" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatsFallbacks_Chats" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatsMensagens_Chats" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatsMensagensAssistente_Chats" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatsMensagensNaoLidas_Chats" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatsTranferencias_Chats" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatsVariaveis_Chats" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CanaisChatsUsuarios_NumerosWhatsApp" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatsMensagens_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatsMensagens_TemplatesMeta" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatsOnlineUsers_ChatsMotivosPausas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatsPausas_ChatsMotivosPausas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatsOnlineUsersNotasFiscaisPendenciasDevolucao_NotasFiscaisPendenciasDevolucao" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatsOnlineUsersOrdensServicos_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatsEtiquetas_EtiquetasMessagingCenter" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChatsTranferencias_GruposCallCenter" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Checklists_FamiliasProdutos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Checklists_FinalidadesOrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Checklists_Servicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChecklistsFamiliasProdutos_Checklists" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChecklistsGrupos_Checklists" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChecklistsProdutos_Checklists" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosChecklists_Checklists" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChecklistsFamiliasProdutos_FamiliasProdutos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChecklistsItens_ChecklistsGrupos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChecklistsItensOpcoes_ChecklistsItens" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChecklistsItensStatusOportunidadesOpcoes_ChecklistsItensStatusOportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChecklistsStatusOportunidades_StatusOportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ChecklistsProdutos_Produtos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Comunicados_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ComunicadosFamilias_Comunicados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ComunicadosPostosAutorizados_Comunicados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ComunicadosProdutos_Comunicados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ComunicadosFamilias_FamiliasProdutos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ComunicadosPostosAutorizados_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ComunicadosProdutos_Produtos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NaoConformidades_ConclusoesNaoConformidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_CondicoesPagamento_TabelasPrecos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Entidades_CondicoesPagamento" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pedidos_CondicoesPagamento" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Consumidores_Regioes" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ConsumidoresComentarios_Consumidores" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ConsumidoresProdutos_Consumidores" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Contatos_Consumidores" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NaoConformidades_Consumidores" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NPSRegistros_Consumidores" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Oportunidades_Consumidores" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_Consumidores" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pedidos_Consumidores" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Contatos_Entidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Contatos_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Contatos_Revendedores" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ContatosComentarios_Contatos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ContatosFavoritos_Contatos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ContatosInteracoes_Contatos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ContatosTags_Contatos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_IATokens_Contatos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NPSRegistros_Contatos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Oportunidades_Contatos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_Contatos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosApontamentos_Contatos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ContatosInteracoes_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ContatosTags_TagsMessagingCenter" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ServicosContratosCorreios_ContratosCorreios" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pedidos_CuponsDesconto" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_DefeitosConstatadosFamilias_DefeitosConstatados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_DefeitosConstatadosSugeridos_DefeitosConstatados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosDefeitosConstatados_DefeitosConstatados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosProdutos_DefeitosConstatados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_DefeitosConstatadosFamilias_FamiliasProdutos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_DefeitosConstatadosSugeridos_DefeitosReclamadosFamilias" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_DefeitosConstatadosSugeridosFamiliasPecas_DefeitosConstatadosSugeridos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_DefeitosConstatadosSugeridosFamiliasPecas_FamiliasPecas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_DefeitosReclamadosFamilias_DefeitosReclamados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_DefeitosReclamados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosDefeitosReclamados_DefeitosReclamados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosProdutos_DefeitosReclamados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_DefeitosReclamadosFamilias_FamiliasProdutos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_DePara_Pecas_De" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_DePara_Pecas_Para" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Documentos_DocumentosTipos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Documentos_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_DocumentosProdutos_Documentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_DocumentosProdutos_Produtos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_EnderecoProduto_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Entidades_EntidadesEnderecosAdicionaisCobranca" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Entidades_EntidadesEnderecosAdicionaisEntrega" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Entidades_EntidadesMatriz" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Entidades_NaturezaOperacao" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Entidades_Regioes" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Entidades_Representantes" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Entidades_TiposEntidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Entidades_Transportadoras" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Entidades_TransportadorasRedespacho" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_EntidadesComentarios_Entidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_EntidadesDadosExternos_Entidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_EntidadesEnderecosAdicionais_Entidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_EntidadesInteracoes_Entidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_EntidadesSegmentos_Entidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_EntidadesTabelasPrecosVenda_Entidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_EntidadesTags_Entidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ExtratosLotes_Entidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NaoConformidades_Entidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NaoConformidadesEntidades_Entidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Oportunidades_Entidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosEntidades_Entidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pedidos_Entidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ReferenciasProdutosEntidades_Entidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_EntidadesEnderecosAdicionais_Regioes" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosEntidades_EntidadesEnderecosAdicionais" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pedidos_EntidadesEnderecosAdicionais" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_EntidadesInteracoes_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_EntidadesSegmentos_SegmentosEntidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_EntidadesTabelasPrecosVenda_TabelasPrecos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_EntidadesTags_TagsMessagingCenter" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_EstoquePosto_Pecas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_EstoquePosto_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Estruturas_Pecas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Estruturas_Produtos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_EstruturasVersionadas_EstruturasVersionadasCapa" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_EstruturasVersionadas_Pecas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ConsumidoresProdutos_EstruturasVersionadasCapa" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_EstruturasVersionadasCapa_Produtos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_EstruturasVersionadasCapa_Revendedores" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NaoConformidades_EstruturasVersionadasCapa" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosProdutos_EstruturasVersionadasCapa" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Refurbished_EstruturasVersionadasCapa" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ExcessoesMaoDeObra_FamiliasProdutos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ExcessoesMaoDeObra_FinalidadesOrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ExcessoesMaoDeObra_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ExcessoesMaoDeObra_Produtos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Extratos_ExtratosLotes" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Extratos_TiposLancamentosAvulsos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Extratosss_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ExtratosLotes_ComprovantePagamentoFiles" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ExtratosLotes_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ExtratosLotes_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ExtratosLotesTags_ExtratosLotes" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ExtratosLotesTags_TagsMessagingCenter" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pecas_FamiliasPecas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Produtos_FamiliasProdutos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ConsumidoresProdutos_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_FormulariosHTML_FilesCapa" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_FormulariosHTML_FilesLogo" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NotasFiscaisPendenciasDevolucao_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OportunidadesInteracoes_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_Files1" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_Files10" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_Files2" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_Files3" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_Files4" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_Files5" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_Files6" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_Files7" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_Files8" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_Files9" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosAnexos_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosApontamentos_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosChecklists_Files1" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosChecklists_Files2" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosChecklists_Files3" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosChecks_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosProdutos_Files1" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosProdutos_Files2" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosProdutos_Files3" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosProdutos_Files4" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosServicosAdicionais_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ParametrosLojaVirtual_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pecas_Files01" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pecas_Files02" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pecas_Files03" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pecas_Files04" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pecas_Files05" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pedidos_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PostosAutorizadosAnexos_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_VisualizacaoConsultaPublica_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_FiltrosCampos_Filtros" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_FinalidadesOrdensServicos_NumerosWhatsApp" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_FinalidadesOrdensServicosServicosAdicionaisObrigatorios_FinalidadesOrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_FinalidadesOrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PostosAutorizadosFinalidadesOrdensServicos_FinalidadesOrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_FinalidadesOrdensServicosGerais_NumerosWhatsApp" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_FinalidadesOrdensServicosServicosGeraisAdicionaisObrigatorios_FinalidadesOrdensServicosGerais" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_FinalidadesOrdensServicosGerais" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PostosAutorizadosFinalidadesOrdensServicosGerais_FinalidadesOrdensServicosGerais" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ServicosFinalidadesOrdensServicosGerais_FinalidadesOrdensServicosGerais" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_FinalidadesOrdensServicosServicosAdicionaisObrigatorios_ServicosAdicionais" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_FinalidadesOrdensServicosServicosGeraisAdicionaisObrigatorios_ServicosAdicionais" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_FluxosAtendimentoMessagingCenterEtapas_FluxosAtendimentoMessagingCenter" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_FluxosAtendimentoMessagingCenterPadraoUsuarios_FluxosAtendimentoMessagingCenter" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PaineisOportunidadesFluxosAtendimento_FluxosAtendimentoMessagingCenterEtapas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_GruposCallCenter_GruposCallCenter" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_GruposCallCenter_NumerosWhatsApp" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_GruposCallCenter_StatusAtendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_GruposCallCenterUsuarios_GruposCallCenter" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_IntegracoesMarketplaces_GruposCallCenter" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ModelosAtendimentos_GruposCallCenter" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_IATokens_NumerosWhatsApp" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_IntegracoesMarketplacesDados_IntegracoesMarketplaces" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Job_Jobs" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_JobItem_Pedidos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_JobItem_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PostosAutorizadosLinhasTabelas_LinhasProdutos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Produtos_LinhasProdutos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_MotivosCancelamentosOrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PedidosPecas_MotivosEnviosPecas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_MotivosPerdasOportunidadesStatusRestritos_MotivosPerdasOportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Oportunidades_MotivosPerdasOportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_MotivosPerdasOportunidadesStatusRestritos_StatusOportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_MovtoEstoque_OrdensServicosProdutos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_MovtoEstoque_Pecas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_MovtoEstoque_Pedidos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_MovtoEstoque_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NaoConformidades_OrigensNaoConformidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NaoConformidades_Pecas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NaoConformidades_Produtos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NaoConformidades_Revendedores" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NaoConformidadesAtendimentos_NaoConformidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NaoConformidadesEntidades_NaoConformidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NaoConformidadesOrdensServicos_NaoConformidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NaoConformidadesOrdensServicos_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NaoConformidadesOrdensServicos_OrdensServicosProdutos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pedidos_NaturezaOperacao" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NotasFiscais_Pedidos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NotasFiscaisOcorrencias_NotasFiscais" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NotasFiscaisPecas_NotasFiscais" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NotasFiscaisProdutos_NotasFiscais" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NotasFiscaisPecas_Pecas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NotasFiscaisPendenciasDevolucaoEtiquetasCorreios_NotasFiscaisPendenciasDevolucao" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NotasFiscaisPendenciasDevolucaoInteracoes_NotasFiscaisPendenciasDevolucao" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NotasFiscaisPendenciasDevolucaoPecas_NotasFiscaisPendenciasDevolucao" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NotasFiscaisPendenciasDevolucaoPecas_OrdensServicosPecas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NotasFiscaisProdutos_Produtos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NPSRegistros_NPS" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_NumerosWhatsAppSubFilas_NumerosWhatsApp" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OportunidadesParametrosGatewayPagamento_NumerosWhatsApp" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ParametrosNegocios_NumerosWhatsApp" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_TemplatesMeta_NumerosWhatsApp" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Oportunidades_OportunidadesOrigens" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Oportunidades_OportunidadesProdutos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Oportunidades_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Oportunidades_PaineisOportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Oportunidades_Produtos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Oportunidades_StatusOportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OportunidadesAtualizacoesStatus_Oportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OportunidadesChecklists_Oportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OportunidadesDistribuicaoAutomatica_Oportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OportunidadesInteracoes_Oportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OportunidadesTags_Oportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pedidos_Oportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_StatusOportunidades_Oportunidades_Anterior" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_StatusOportunidades_Oportunidades_Atualizado" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OportunidadesChecklists_StatusOportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OportunidadesDistribuicaoAutomatica_PaineisOportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OportunidadesProdutosComplementaresProdutos_OportunidadesProdutosComplementares" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OportunidadesProdutosPacotesServicosFamilias_OportunidadesProdutosPacotesServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OportunidadesProdutosPacotesServicosProdutos_OportunidadesProdutosPacotesServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OportunidadesProdutosPacotesServicosServicos_OportunidadesProdutosPacotesServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OportunidadesProdutosPacotesServicosServicos_Servicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OportunidadesTags_TagsMessagingCenter" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_PostosAutorizadosMaisProximo" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_PostosAutorizadosUnidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_Revendedores" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_SLA" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_StatusOrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicos_Tecnicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosAnexos_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosApontamentos_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosAuditoria_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosAuditoria_OrdensServicosReincid" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosAutorizacoes_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosChecklists_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosChecks_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosDadosExternos_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosDefeitosConstatados_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosDefeitosReclamados_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosEntidades_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosInteracoes_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosPecas_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosPostosAutorizadosAdicionais_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosServicosAdicionais_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosTags_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosTecnicosAdicionais_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosVeiculos_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ProdutosOrdensServicos_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_RastreamentoTecnicos_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Refurbished_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_VisualizacaoConsultaPublicaLinks_OrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosApontamentos_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosApontamentos_Tecnicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosChecklists_OrdensServicosProdutos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosDefeitosConstatados_OrdensServicosProdutos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosDefeitosReclamados_OrdensServicosProdutos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosInteracoes_OrdensServicosInteracoes" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosInteracoesAuditoriaLeitura_OrdensServicosInteracoes" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosPecas_OrdensServicosProdutos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosPecas_Pecas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosPecas_PecasDefeitos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosPecas_Pedidos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosPostosAutorizadosAdicionais_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosProdutos_Refurbished" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosProdutos_Servicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosServicosAdicionais_OrdensServicosProdutos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ProdutosOrdensServicos_Produtos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosServicosAdicionais_ServicosAdicionais" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosTags_TagsMessagingCenter" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosTecnicosAdicionais_Tecnicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_OrdensServicosVeiculos_Veiculos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PaineisAtendimentosPadraoUsuarios_PaineisAtendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PainelAtendimentosStatusAtendimentos_PainelAtendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PainelAtendimentosStatusAtendimentos_StatusAtendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PaineisAtendimentosStatusOrdensServicos_PaineisOrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PaineisAtendimentosStatusOrdensServicos_StatusOrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_FluxosAtendimentoPaineisOportunidades_PaineisOportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PaineisOportunidadesEditores_PaineisOportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PaineisOportunidadesPadraoUsuarios_PaineisOportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PaineisOportunidadesStatusOportunidades_PaineisOportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PaineisOportunidadesUsuarios_PaineisOportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_FluxosAtendimentoPaineisOportunidades_StatusOportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PaineisOportunidadesStatusOportunidades_StatusOportunidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PaineisOrdensServicosPadraoUsuarios_PaineisOrdensServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ParametrosGlobais_TiposEntidades" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PecasAdicionais_PecaAdicional" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PecasAdicionais_Pecas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PecasDefeitos_Pecas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PedidosPecas_Pecas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_TabelasPrecosPecas_Pecas" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pedidos_Pedidos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pedidos_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pedidos_PostosAutorizadosDistribuidor" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pedidos_Representantes" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pedidos_RepresentantesAdicional" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pedidos_Revendedores" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pedidos_StatusPedidos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pedidos_TabelasFretes" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pedidos_TabelasPrecos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pedidos_Tecnicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pedidos_TiposPedidos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pedidos_Transportadoras" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Pedidos_TransportadorasRedespacho" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PedidosCondicoesEspeciais_Pedidos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PedidosInteracoes_Pedidos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PedidosPecas_Pedidos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PedidosProdutos_Pedidos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_VisualizacaoConsultaPublicaLinks_Pedidos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PedidosProdutos_Produtos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PostosAutorizados_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PostosAutorizados_Representantes" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PostosAutorizados_TabelasPrecos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PostosAutorizados_TabelasPrecosVenda" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PostosAutorizados_TiposPostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PostosAutorizadosAnexos_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PostosAutorizadosCidadesAtendidas_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PostosAutorizadosComentarios_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PostosAutorizadosFinalidadesOrdensServicos_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PostosAutorizadosFinalidadesOrdensServicosGerais_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PostosAutorizadosLinhasTabelas_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PostosAutorizadosTabelasPrecosVenda_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PostosAutorizadosUnidades_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PostosAutorizadosUsuarios_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_RastreamentoTecnicos_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Tecnicos_PostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_PostosAutorizadosTabelasPrecosVenda_TabelasPrecos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ConsumidoresProdutos_Produtos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ProdutosSimilares_Produtos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ProdutosSimilares_ProdutosSimilar" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ReferenciasProdutosEntidades_Produtos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Seg_ItensProdutos_Produtos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ServicosAdicionaisProdutosRestritos_Produtos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_TabelasPrecosProdutos_Produtos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_RastreamentoTecnicos_Tecnicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_RelatoriosUsuarios_Relatorios" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Revendedores_Representantes" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_RevendedoresComentarios_Revendedores" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Seg_Coberturas_Seg_Apolices" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Seg_ItensProdutos_Seg_Apolices" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Seg_Pagamentos_Seg_Apolices" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Seg_Segurados_Seg_Apolices" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Seg_Beneficiarios_Seg_Segurados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_Servicos_Servicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ServicosFinalidadesOrdensServicosGerais_Servicos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ServicosAdicionaisProdutosRestritos_ServicosAdicionais" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ServicosAdicionaisTiposPostosAutorizadosRestritos_ServicosAdicionais" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ServicosAdicionaisTiposPostosAutorizadosRestritos_TiposPostosAutorizados" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_ServicosContratosCorreios_ServicosCorreios" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_StatusAtendimentos_StatusAtendimentos_padrao_retorno" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_StatusAtendimentos_StatusAtendimentos_proximo" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_TiposOcorrencias_StatusAtendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_TabelasFretes_Transportadoras" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_TabelasPrecosPecas_TabelasPrecos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_TabelasPrecosProdutos_TabelasPrecos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_TemplatesMetaBotoes_TemplatesMeta" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_TemplatesMetaFavoritos_TemplatesMeta" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_TemplatesMetaVariaveis_TemplatesMeta" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_TiposOcorrenciasTiposAtendimentosRestritos_TiposAtendimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_TiposOcorrenciasTiposAtendimentosRestritos_TiposOcorrencias" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_TiposOcorrenciasUsuariosReabertura_TiposOcorrencias" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_VisualizacaoConsultaPublicaCampos_VisualizacaoConsultaPublica" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_VisualizacaoConsultaPublicaEstilizacao_VisualizacaoConsultaPublica" ManuallyRouted="false" />
+        <AssociationConnector Association="atweb_50031Model.fk_WebScraperEcomDados_WebScraperEcom" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

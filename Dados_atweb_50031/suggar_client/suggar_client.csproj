@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4E18D00E-E54C-4140-8311-F343FB527943}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>suggar_client</RootNamespace>
+    <AssemblyName>suggar_client</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>suggar.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AcoesReparo.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AgendamentosEnviosTemplates.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AgendamentosEnviosVariaveisTemplates.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ArvoreDiagnosticos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ArvoreDiagnosticosFamilias.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ArvoreDiagnosticosPerguntas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ArvoreDiagnosticosProdutos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Atendimentos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AtendimentosAnexos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AtendimentosAtendimentos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AtendimentosChats.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AtendimentosDadosMarketplaces.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AtendimentosDefeitosReclamados.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AtendimentosEntidades.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AtendimentosEntidadesContatos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AtendimentosInteracoes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AtendimentosInteracoesAnexos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AtendimentosOrdensServicos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AtendimentosProdutos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AtendimentosSeguidores.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AtendimentosTags.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Atividades.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Audit.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Automacoes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AutomacoesAcoes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AutomacoesCondicoes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AutomacoesTrigger.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AvaliacoesAtendimentos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BackupsTextos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BlackList.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BlackListEnvioAutomatico.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Campanhas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CampanhasContatos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CamposPersonalizados.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CamposPersonalizadosAtendimentos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CamposPersonalizadosCondicoes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CamposPersonalizadosContatos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CamposPersonalizadosEntidades.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CamposPersonalizadosItems.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CamposPersonalizadosOrdensServicos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CamposPersonalizadosOrdensServicosProdutos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CamposPersonalizadosPedidos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Carrinho.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CarrinhoConversas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CarrinhoConversasVariacoes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Catalogos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CatalogosArquivos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CatalogosConjuntos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CatalogosConjuntosPecas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CatalogosProdutos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CatalogosProdutosEstruturasVersionadasReferencias.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CatalogosSistemas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Chamadas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Chatbots.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatbotsCondicoes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatbotsIntencoes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatbotsIntencoesFrases.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatbotsIntencoesOpcoes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatbotsVariaveis.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatbotsVariaveisSeletores.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatGPT.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatGPTDados.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Chats.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatsAudit.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatsCanaisUsuarios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatsFallbacks.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatsMensagens.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatsMensagensAssistente.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatsMensagensNaoLidas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatsMotivosPausas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatsOnlineUsers.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatsOnlineUsersChatArea.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatsOnlineUsersNotasFiscaisPendenciasDevolucao.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatsOnlineUsersOrdensServicos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatsPausas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatsTags.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatsTokens.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatsTranferencias.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChatsVariaveis.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Checklists.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChecklistsFamiliasProdutos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChecklistsGrupos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChecklistsItens.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChecklistsItensOpcoes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChecklistsItensStatusOportunidades.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChecklistsItensStatusOportunidadesOpcoes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChecklistsProdutos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Comunicados.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ComunicadosFamilias.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ComunicadosPostosAutorizados.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ComunicadosProdutos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ConclusoesNaoConformidades.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CondicoesPagamento.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Consumidores.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ConsumidoresComentarios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Contatos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ContatosComentarios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ContatosFavoritos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ContatosInteracoes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ContatosLayoutImportacao.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ContatosTags.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ContratosCorreios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CuponsDesconto.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DefeitosConstatados.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DefeitosConstatadosFamilias.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DefeitosConstatadosRestritos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DefeitosConstatadosRestritosFamiliasPecas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DefeitosReclamados.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DefeitosReclamadosFamilias.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DePara.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DigitaçãoTramites.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Documentos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DocumentosProdutos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EmpresasModel.cs" />
+    <Compile Include="Models\EnderecoProduto.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entidades.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EntidadesComentarios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EntidadesDadosExternos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EntidadesEnderecosAdicionais.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EntidadesInteracoes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EntidadesSegmentos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EntidadesTabelasPrecosVenda.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EntidadesTags.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Estados.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EstoquePosto.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Estruturas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EstruturasVersionadas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EstruturasVersionadasCapa.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ExcessoesMaoDeObra.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Extratos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ExtratosLotes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ExtratosLotesTags.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FamiliasPecas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FamiliasProdutos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Files.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Filtros.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FiltrosCampos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FinalidadesAtividades.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FinalidadesOrdensServicos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FinalidadesOrdensServicosGerais.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FinalidadesOrdensServicosServicosAdicionaisObrigatorios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FinalidadesOrdensServicosServicosGeraisAdicionaisObrigatorios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FluxosAtendimentoMessagingCenter.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FluxosAtendimentoMessagingCenterEtapas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FluxosAtendimentoMessagingCenterPadraoUsuarios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FormulariosHTML.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GoogleAPIKeys.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GruposCallCenter.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GruposCallCenterUsuarios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\IAS.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\IASCacheRespostas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\IASConsumoTokens.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\IntegracoesMarketplaces.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\IntegracoesMarketplacesDados.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\JobItem.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Jobs.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Labels.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\LinhasProdutos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ModelDados.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelDados.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ModelDados.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ModelDados.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelDados.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ModelosAtendimentos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ModelosOrdensServicos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MotivosCancelamentosOrdensServicos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MotivosEnviosPecas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MotivosPerdasOportunidades.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MotivosPerdasOportunidadesStatusRestritos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MovtoEstoque.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NaoConformidades.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NaoConformidadesAtendimentos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NaoConformidadesEntidades.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NaoConformidadesOrdensServicos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NaturezaOperacao.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NotasFiscais.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NotasFiscaisOcorrencias.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NotasFiscaisPecas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NotasFiscaisPendenciasDevolucao.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NotasFiscaisPendenciasDevolucaoAutorizacaoPostagem.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NotasFiscaisPendenciasDevolucaoInteracoes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NotasFiscaisPendenciasDevolucaoPecas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NotasFiscaisProdutos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Notificacoes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NotificacoesPreferenciasUsuarios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NotificacoesToastTimer.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NPS.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NPSRegistros.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NumerosWhatsApp.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NumerosWhatsAppSubFilasSQS.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Oportunidades.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OportunidadesAtualizacoesProdutos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OportunidadesAtualizacoesStatus.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OportunidadesChecklists.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OportunidadesDistribuicaoAutomatica.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OportunidadesInteracoes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OportunidadesOrigens.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OportunidadesParametrosGatewayPagamento.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OportunidadesProdutos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OportunidadesProdutosComplementares.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OportunidadesProdutosComplementaresProdutos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OportunidadesProdutosPacotesServicos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OportunidadesProdutosPacotesServicosFamilias.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OportunidadesProdutosPacotesServicosProdutos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OportunidadesProdutosPacotesServicosServicos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OportunidadesTags.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrdensServicos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrdensServicosAnexos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrdensServicosApontamentos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrdensServicosAuditoria.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrdensServicosAutorizacoes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrdensServicosChecklists.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrdensServicosChecks.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrdensServicosDadosExternos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrdensServicosDefeitosConstatados.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrdensServicosDefeitosReclamados.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrdensServicosEntidades.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrdensServicosInteracoes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrdensServicosInteracoesAuditoriaLeitura.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrdensServicosPecas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrdensServicosPostosAutorizadosAdicionais.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrdensServicosProdutos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrdensServicosServicosAdicionais.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrdensServicosTags.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrdensServicosTecnicosAdicionais.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrdensServicosVeiculos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrderList.cs" />
+    <Compile Include="Models\OrigensAtendimentos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrigensNaoConformidades.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PaineisAtendimentos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PaineisAtendimentosPadraoUsuarios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PaineisAtendimentosStatusAtendimentos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PaineisAtendimentosStatusOrdensServicos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PaineisOportunidades.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PaineisOportunidadesEditores.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PaineisOportunidadesFluxosAtendimento.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PaineisOportunidadesPadraoUsuarios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PaineisOportunidadesStatusOportunidades.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PaineisOportunidadesUsuarios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PaineisOrdensServicos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PaineisOrdensServicosPadraoUsuarios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Paises.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Param.cs" />
+    <Compile Include="Models\ParametrosGlobais.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ParametrosLojaVirtual.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ParametrosNegocios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ParceiroATweb.cs" />
+    <Compile Include="Models\Pecas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PecasAdicionais.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PecasDefeitos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pedidos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PedidosCondicoesEspeciais.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PedidosInteracoes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PedidosPecas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PedidosProdutos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PostosAutorizados.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PostosAutorizadosAnexos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PostosAutorizadosCidadesAtendidas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PostosAutorizadosComentarios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PostosAutorizadosFinalidadesOrdensServicos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PostosAutorizadosFinalidadesOrdensServicosGerais.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PostosAutorizadosLinhas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PostosAutorizadosTabelasPrecosVenda.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PostosAutorizadosUnidades.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PostosAutorizadosUsuarios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Produtos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ProdutosConsumidores.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ProdutosSimilares.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RastreamentoTecnicos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ReferenciasProdutosEntidades.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Refurbished.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Regioes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Relatorios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RelatoriosUsuarios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Representantes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Revendedores.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RevendedoresComentarios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SegmentosEntidades.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Seg_Apolices.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Seg_Beneficiarios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Seg_Coberturas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Seg_ItensProdutos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Seg_Pagamentos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Seg_Segurados.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Servicos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ServicosAdicionais.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ServicosAdicionaisProdutosRestritos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ServicosAdicionaisTiposPostosAutorizadosRestritos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ServicosContratosCorreios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ServicosCorreios.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ServicosFinalidadesOrdensServicosGerais.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SignalRConnectionAbas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SignalRConnectionId.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SLA.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\StatusAtendimentos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\StatusOportunidades.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\StatusOrdensServicos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\StatusPedidos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TabelasFretes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TabelasPrecos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TabelasPrecosPecas.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TabelasPrecosProdutos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TagsMessagingCenter.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Tecnicos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TemplatesMeta.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TemplatesMetaBotoes.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TemplatesMetaFavoritos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TemplatesMetaValores.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TemplatesMetaVariaveis.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TiposAtendimentos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TiposDocumentos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TiposEntidades.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TiposLancamentosAvulsos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TiposOcorrencias.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TiposOcorrenciasTiposAtendimentosRestritos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TiposOcorrenciasUsuariosReaberturaRestritos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TiposPedidos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TiposPostosAutorizados.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Transportadoras.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\UsuariosUsuariosResponsaveis.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Veiculos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VisualizacaoConsultaPublica.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VisualizacaoConsultaPublicaCampos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VisualizacaoConsultaPublicaEstilizacao.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VisualizacaoConsultaPublicaLinks.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\WebScraper.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\WebScraperCampos.cs">
+      <DependentUpon>ModelDados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\Rotinas.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EntityDeploy Include="Models\ModelDados.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModelDados.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Models\ModelDados.edmx.diagram">
+      <DependentUpon>ModelDados.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Models\ModelDados.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelDados.edmx</DependentUpon>
+      <LastGenOutput>ModelDados.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\ModelDados.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelDados.edmx</DependentUpon>
+      <LastGenOutput>ModelDados.cs</LastGenOutput>
+    </Content>
+    <Content Include="suggar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" />
+</Project>
