@@ -213,7 +213,7 @@ namespace suggar_client
             Rotinas.Log("-----------------------------------------------------------------------------------------------------------------------------");
 
 
-            int pedidosIntegrados = 0;
+            int pedidosIntegrados = 0; 
 
             //Processa 5 dias pra trás
             DateTime dataIProcessar = dataI == dataF ? dataI.AddDays(-4) : dataI;
