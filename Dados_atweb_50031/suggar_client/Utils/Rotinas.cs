@@ -1,4 +1,5 @@
-﻿using System;
+﻿using suggar_client.Models;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity.Validation;
 using System.Diagnostics;
@@ -11,6 +12,37 @@ namespace suggar_client.Utils
 {
     public class Rotinas
     {
+        public static int NumeroPedido(Dados_atweb_50031 _contexto = null)
+        {
+            int numero = 0;
+
+            Dados_atweb_50031 contexto;
+            if (_contexto != null)
+                contexto = _contexto;
+            else
+                contexto = new Dados_atweb_50031();
+
+            ParametrosGlobais registro = contexto.ParametrosGlobais.Find(1); //sempre busca registro de id=1 para os parametros
+
+            //Verifica se ID já existe na tabela
+            bool ok = false;
+            do
+            {
+                registro.numeropedido = registro.numeropedido + 1;
+                numero = (int)registro.numeropedido;
+
+                Pedidos Pedidos = contexto.Pedidos.FirstOrDefault(m => m.numeropedido == registro.numeropedido);
+                if (Pedidos == null)
+                    ok = true;
+
+            } while (ok == false);
+
+            //Atualiza numeracao
+            contexto.Entry(registro).State = System.Data.Entity.EntityState.Modified;
+            contexto.SaveChanges();
+
+            return numero;
+        }
         public static int? ParseNullableInt(string value)
         {
             int intValue;

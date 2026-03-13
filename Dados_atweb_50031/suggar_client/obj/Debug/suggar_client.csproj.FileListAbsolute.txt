@@ -15,4 +15,3 @@ C:\VS_2022\atweb_especificos_clientes\Suggar\Dados_atweb_50031\suggar_client\bin
 C:\VS_2022\atweb_especificos_clientes\Suggar\Dados_atweb_50031\suggar_client\obj\Debug\suggar_c.A868FC5B.Up2Date
 C:\VS_2022\atweb_especificos_clientes\Suggar\Dados_atweb_50031\suggar_client\obj\Debug\suggar_client.exe
 C:\VS_2022\atweb_especificos_clientes\Suggar\Dados_atweb_50031\suggar_client\obj\Debug\suggar_client.pdb
-C:\VS_2022\atweb_especificos_clientes\Suggar\Dados_atweb_50031\suggar_client\obj\Debug\suggar_client.exe.config

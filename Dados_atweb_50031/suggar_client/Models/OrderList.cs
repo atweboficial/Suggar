@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -274,5 +274,72 @@ namespace suggar_client.Models
         public object listaInformacaoCadastral { get; set; }
     }
 
+    
+    ///// Resposta do GET pedidos/{pedidoId}/produtos/{produtoVarianteId}/rastreamento[/{pedidoRastreamentoProdutoId}]
+    //public class RastreamentoItem
+    //{
+    //    public int pedidoRastreamentoProdutoId { get; set; }
+    //    public int quantidade { get; set; }
+    //    public string dataAtualizacao { get; set; }
+    //    public string notaFiscal { get; set; }
+    //    public int cfop { get; set; }
+    //    public string dataEnviado { get; set; }
+    //    public string chaveAcessoNFE { get; set; }
+    //    public string rastreamento { get; set; }
+    //    public string urlRastreamento { get; set; }
+    //    public string transportadora { get; set; }
+    //    public int centroDistribuicaoId { get; set; }
+    //    public object dataEntrega { get; set; }
+    //}
+
+    //public class RastreamentoProdutoResponse
+    //{
+    //    public int produtoVarianteId { get; set; }
+    //    public List<RastreamentoItem> rastreamentos { get; set; }
+    //}
+
+  
+    /// Resposta do GET pedidos/{pedidoId}/status
+    public class PedidoStatusProduto
+    {
+        public int produtoVarianteId { get; set; }
+        public int situacaoProdutoId { get; set; }
+        public int quantidade { get; set; }
+        public int centroDistribuicaoId { get; set; }
+    }
+
+    public class PedidoStatusResponse
+    {
+        public int situacaoPedidoId { get; set; }
+        public string dataAtualizacao { get; set; }
+        public string notaFiscal { get; set; }
+        public int cfop { get; set; }
+        public object dataEnviado { get; set; }
+        public string chaveAcessoNFE { get; set; }
+        public string rastreamento { get; set; }
+        public string urlRastreamento { get; set; }
+        public string nomeTransportadora { get; set; }
+        public List<PedidoStatusProduto> produtos { get; set; }
+    }
+
+    /// Resposta do GET pedidos/{pedidoId}/rastreamento
+    public class PedidoRastreamentoResponse
+    {
+        public object cotacaoFilha { get; set; }
+        public object loja { get; set; }
+        public int pedidoRastreamentoId { get; set; }
+        public string dataAtualizacao { get; set; }
+        public string notaFiscal { get; set; }
+        public string serieNF { get; set; }
+        public int cfop { get; set; }
+        public object dataEnviado { get; set; }
+        public string urlNFE { get; set; }
+        public string chaveAcessoNFE { get; set; }
+        public string rastreamento { get; set; }
+        public string urlRastreamento { get; set; }
+        public string urlRastreamentoContratofrete { get; set; }
+        public string transportadora { get; set; }
+        public object dataEntrega { get; set; }
+    }
 
 }

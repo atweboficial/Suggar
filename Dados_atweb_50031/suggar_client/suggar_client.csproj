@@ -956,6 +956,7 @@
     <Compile Include="Models\StatusPedidos.cs">
       <DependentUpon>ModelDados.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\StatusWake.cs" />
     <Compile Include="Models\TabelasFretes.cs">
       <DependentUpon>ModelDados.tt</DependentUpon>
     </Compile>
