@@ -220,8 +220,10 @@ namespace suggar_client
             //Processa 5 dias pra trás
             DateTime dataIProcessar = dataI == dataF ? dataI.AddDays(-4) : dataI;
             DateTime dataFProcessar = dataF;
-            //dataIProcessar = new DateTime(2026, 02, 15, 00, 00, 00); - Teste
-            //dataFProcessar = new DateTime(2026, 02, 16, 00, 00, 00); - Teste
+
+            //Teste
+            dataIProcessar = new DateTime(2026, 03, 12, 00, 00, 00); 
+            dataFProcessar = new DateTime(2026, 03, 12, 00, 00, 00); 
 
             //O processamento deve ser feito dia por dia, pois a Wake limita o retorno a no máximo 30 paginas
             do
@@ -287,15 +289,27 @@ namespace suggar_client
                             foreach (var PedidoEcom in obj)
                             {
                                 bool passa = true;
-                                //if (PedidoList.orderId != "1460620838070-01")
+                                //if (PedidoEcom.pedidoId.ToString() != "17014794")
                                 //{
                                 //    passa = false;
                                 //}
+                                if (PedidoEcom.pedidoId.ToString() == "17014794")
+                                {
+                                    string aqui = "";
+                                }
 
                                 if (passa)
                                 {
+
+                                    string pedidoWake =  PedidoEcom.marketPlacePedidoId;
+                                    if (string.IsNullOrEmpty(pedidoWake))
+                                    {
+                                        pedidoWake = PedidoEcom.pedidoId.ToString();
+                                    }
+                                    
+
                                     Rotinas.Log("-----------------------------------------------------------------------------------------------------------------");
-                                    Rotinas.Log("Integração pedido: " + PedidoEcom.pedidoId);
+                                    Rotinas.Log("Integração pedido: " + pedidoWake);
 
                                     try
                                     {
@@ -305,7 +319,7 @@ namespace suggar_client
 
                                             //Busca o pedido no ATweb
                                             etapa = "Consulta do pedido no ATweb";
-                                            int pedidoid = contexto.Database.SqlQuery<int>("Select id from Pedidos Where numeropedidoexterno='" + PedidoEcom.pedidoId + "'").FirstOrDefault();
+                                            int pedidoid = contexto.Database.SqlQuery<int>("Select id from Pedidos Where numeropedidoexterno='" + pedidoWake + "'").FirstOrDefault();
                                             if (pedidoid != 0)
                                             {
                                                 ////Pedido ja existe no ATweb, Atualiza o link de rastreio caso possua
@@ -315,7 +329,7 @@ namespace suggar_client
                                                 //    updated = contexto.Database.ExecuteSqlCommand("UPDATE Pedidos SET urlrastreio='" + urlrastreio + "' WHERE id=" + pedidoid);
                                                 //}
 
-                                                Rotinas.Log("Pedido " + PedidoEcom.pedidoId + " já integrado.");
+                                                Rotinas.Log("Pedido " + pedidoWake + " já integrado.");
                                             }
                                             else
                                             {
@@ -325,19 +339,25 @@ namespace suggar_client
                                                 string cpfcnpj = "";
                                                 string nome = "";
                                                 string telefone = "";
+                                                string telefone2 = "";
+                                                string telefone3 = "";
                                                 if (PedidoEcom.usuario.tipoPessoa == "Fisica")
                                                 {
                                                     tipoparceiroid = 1; //Consumidor
                                                     cpfcnpj = Rotinas.DeixaNumerico(PedidoEcom.usuario.cpf);
                                                     nome = PedidoEcom.usuario.nome;
-                                                    telefone = PedidoEcom.usuario.telefoneCelular;
+                                                    telefone = string.IsNullOrEmpty(PedidoEcom.usuario.telefoneCelular) ? "0" : PedidoEcom.usuario.telefoneCelular;
+                                                    telefone2 = PedidoEcom.usuario.telefoneResidencial;
+                                                    telefone3 = PedidoEcom.usuario.telefoneComercial;
                                                 }
                                                 else
                                                 {
                                                     tipoparceiroid = 2; //Revendedor
                                                     cpfcnpj = Rotinas.DeixaNumerico(PedidoEcom.usuario.cnpj);
                                                     nome = !string.IsNullOrEmpty(PedidoEcom.usuario.nome) ? PedidoEcom.usuario.nome : PedidoEcom.usuario.razaoSocial;
-                                                    telefone = PedidoEcom.usuario.telefoneCelular;
+                                                    telefone = string.IsNullOrEmpty(PedidoEcom.usuario.telefoneCelular) ? "0" : PedidoEcom.usuario.telefoneCelular;
+                                                    telefone2 = PedidoEcom.usuario.telefoneResidencial;
+                                                    telefone3 = PedidoEcom.usuario.telefoneComercial;
                                                 }
                                                 // B2B quando não for pessoa física; B2C quando tipoPessoa == "Fisica"
                                                 bool isB2B = (PedidoEcom.usuario?.tipoPessoa != "Fisica");
@@ -362,11 +382,11 @@ namespace suggar_client
                                                         ParceiroATweb.data.tipoparceiroid = tipoparceiroid;
                                                         ParceiroATweb.data.numeroidentificacao = cpfcnpj;
                                                         ParceiroATweb.data.nome = nome;
-                                                        ParceiroATweb.data.razaosocial = nome;
+                                                        ParceiroATweb.data.razaosocial = PedidoEcom.usuario.razaoSocial;
                                                         ParceiroATweb.data.referencia = null;
                                                         ParceiroATweb.data.telefone = string.IsNullOrEmpty(telefone) ? "0" : telefone;
-                                                        ParceiroATweb.data.telefone2 = null;
-                                                        ParceiroATweb.data.telefone3 = null;
+                                                        ParceiroATweb.data.telefone2 = telefone2;
+                                                        ParceiroATweb.data.telefone3 = telefone3;
                                                         try
                                                         {
 
@@ -376,7 +396,7 @@ namespace suggar_client
                                                             ParceiroATweb.data.email = nomeEmail + dominioEmail;
                                                         }
                                                         catch { }
-                                                        ParceiroATweb.data.rginscricaoestadual = null;
+                                                        ParceiroATweb.data.rginscricaoestadual = PedidoEcom.usuario.inscricaoEstadual;
                                                         var enderecoEntrega = PedidoEcom.pedidoEndereco.FirstOrDefault(x => x.tipo == "Entrega");
                                                         if (enderecoEntrega == null)
                                                         {
@@ -390,7 +410,7 @@ namespace suggar_client
                                                             ParceiroATweb.data.complemento = enderecoEntrega.complemento;
                                                             ParceiroATweb.data.bairro = enderecoEntrega.bairro;
                                                             ParceiroATweb.data.cidade = enderecoEntrega.cidade;
-                                                            ParceiroATweb.data.estado = enderecoEntrega.pais;
+                                                            ParceiroATweb.data.estado = enderecoEntrega.estado;
                                                             ParceiroATweb.data.pais = enderecoEntrega.pais == "BRA" ? "Brasil" : enderecoEntrega.pais;
                                                         }
                                                         try
@@ -438,8 +458,9 @@ namespace suggar_client
                                                     }
                                                 }
 
+                                                etapa = "Consulta do consumidor/parceiro no ATweb";
                                                 if (ParceiroATweb.data != null)
-                                                {
+                                                {                                                    
                                                     int? consumidorid = null;
                                                     int? entidadeid = null;
 
@@ -467,10 +488,8 @@ namespace suggar_client
                                                             consumidorid = Consumidores.id;
                                                         }
                                                     }
-
-                                                    etapa = "Consulta do consumidor/parceiro no ATweb";
+                                                    
                                                     //Cadastra pedido no ATweb
-
                                                     if (consumidorid != null || entidadeid != null)
                                                     {
 
@@ -520,6 +539,7 @@ namespace suggar_client
                                                             var rast = JsonConvert.DeserializeObject<PedidoRastreamentoResponse>(jsonRast);
                                                             if (!string.IsNullOrEmpty(rast?.urlRastreamento))
                                                                 urlrastreio = rast.urlRastreamento;
+                                                            transportador = rast.transportadora;
                                                         }
                                                         catch { }
 
@@ -540,10 +560,11 @@ namespace suggar_client
                                                             valordesconto = valorDesconto,
                                                             percentualdesconto = percentualDesconto,
                                                             total = Convert.ToDecimal(PedidoEcom.valorTotalPedido),
-                                                            numeropedidoexterno = PedidoEcom.pedidoId.ToString(),
+                                                            numeropedidoexterno = pedidoWake,
                                                             origempedidoexterno = "Wake",
                                                             obs = obs,
-                                                            char1 = isB2B ? "B2B" : "B2C"
+                                                            char1 = isB2B ? "B2B" : "B2C",
+                                                            char2 = PedidoEcom.pedidoId.ToString()
                                                         };
 
 
@@ -562,14 +583,14 @@ namespace suggar_client
                                                                 obsItem = Item.nome;
                                                             }
                                                             if (Produtos != null)
-                                                            {
+                                                            {                                                                
                                                                 PedidosProdutos PedidosProdutos = new PedidosProdutos
                                                                 {
                                                                     produtoid = Produtos.id,
                                                                     quantidade = Item.quantidade,
                                                                     precotabela = Convert.ToDecimal(Item.precoVenda),
                                                                     valorunitario = Convert.ToDecimal(Item.precoVenda),
-                                                                    valortotal = Convert.ToDecimal(Item.valorItem),
+                                                                    valortotal = Convert.ToDecimal(Item.valorItem) * Item.quantidade,
                                                                     obs = obsItem != null ? obsItem : null
                                                                 };
 
@@ -669,7 +690,7 @@ namespace suggar_client
                     try
                     {
                         var clientDetail = new HttpClient();
-                        var requestDetail = new HttpRequestMessage(HttpMethod.Get, baseUrl + "/" + Pedidos.numeropedidoexterno + "/status");
+                        var requestDetail = new HttpRequestMessage(HttpMethod.Get, baseUrl + "/" + Pedidos.char2 + "/status");
                         requestDetail.Headers.Add("accept", "application/json");
                         requestDetail.Headers.Add("Authorization", "Basic " + token);
 
@@ -719,19 +740,19 @@ namespace suggar_client
                                             total = Pedidos.total
                                         };
 
-                                        var itensPedido = contexto.PedidosProdutos.Where(pp => pp.pedidoid == Pedidos.id).ToList();
-                                        foreach (var item in itensPedido)
-                                        {
-                                            nf.NotasFiscaisProdutos.Add(new NotasFiscaisProdutos
-                                            {
-                                                produtoid = item.produtoid,
-                                                quantidade = item.quantidade,
-                                                precotabela = item.precotabela,
-                                                valorunitario = item.valorunitario,
-                                                valortotal = item.valortotal,
-                                                obs = item.obs
-                                            });
-                                        }
+                                        //var itensPedido = contexto.PedidosProdutos.Where(pp => pp.pedidoid == Pedidos.id).ToList();
+                                        //foreach (var item in itensPedido)
+                                        //{
+                                        //    nf.NotasFiscaisProdutos.Add(new NotasFiscaisProdutos
+                                        //    {
+                                        //        produtoid = item.produtoid,
+                                        //        quantidade = item.quantidade,
+                                        //        precotabela = item.precotabela,
+                                        //        valorunitario = item.valorunitario,
+                                        //        valortotal = item.valortotal,
+                                        //        obs = item.obs
+                                        //    });
+                                        //}
 
                                         contexto.NotasFiscais.Add(nf);
                                     }
@@ -740,6 +761,9 @@ namespace suggar_client
                             else if (ehCancelado)
                             {
                                 Pedidos.status = "Cancelado";
+
+                                var StatusWake = listaStatusWake.FirstOrDefault(m => m.situacaoPedidoId == id);
+
                                 string textoObs = dictObservacaoWake.ContainsKey(id) ? dictObservacaoWake[id] : ("Status Wake: " + id);
                                 if (!string.IsNullOrEmpty(Pedidos.obs))
                                     Pedidos.obs = Pedidos.obs + " | " + textoObs;
@@ -750,6 +774,7 @@ namespace suggar_client
                             if (!string.IsNullOrEmpty(PedidoStatus.urlRastreamento))
                             {
                                 Pedidos.urlrastreio = PedidoStatus.urlRastreamento;
+                                Pedidos.transportador = PedidoStatus.nomeTransportadora;
                             }
 
                             contexto.Entry(Pedidos).State = System.Data.Entity.EntityState.Modified;

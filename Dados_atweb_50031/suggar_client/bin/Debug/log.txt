@@ -4,194 +4,503 @@
 
 
 
-#### INICIO - 27/01/2026 15:42:08 #############################################################################################################################################
+#### INICIO - 13/03/2026 11:51:07 #############################################################################################################################################
 
-     Período: 26/01/2026 a 26/01/2026
-
------------------------------------------------------------------------------------------------------------------------------
-Início Integração Pedidos de 22/01/2026 00:00:00 até 22/01/2026 00:00:00
-
-
-
-
-
-
-#### INICIO - 27/01/2026 15:44:24 #############################################################################################################################################
-
-     Período: 26/01/2026 a 26/01/2026
+     Período: 12/03/2026 a 12/03/2026
 
 -----------------------------------------------------------------------------------------------------------------------------
-Início Integração Pedidos de 22/01/2026 00:00:00 até 22/01/2026 00:00:00
-
-
-
-
-
-
-#### INICIO - 27/01/2026 15:45:49 #############################################################################################################################################
-
-     Período: 26/01/2026 a 26/01/2026
-
------------------------------------------------------------------------------------------------------------------------------
-Início Integração Pedidos de 22/01/2026 00:00:00 até 22/01/2026 00:00:00
-
-
-
-
-
-
-#### INICIO - 27/01/2026 15:46:55 #############################################################################################################################################
-
-     Período: 26/01/2026 a 26/01/2026
-
------------------------------------------------------------------------------------------------------------------------------
-Início Integração Pedidos de 22/01/2026 00:00:00 até 22/01/2026 00:00:00
-
-
-
-
-
-
-#### INICIO - 27/01/2026 15:47:59 #############################################################################################################################################
-
-     Período: 26/01/2026 a 26/01/2026
-
------------------------------------------------------------------------------------------------------------------------------
-Início Integração Pedidos de 22/01/2026 00:00:00 até 22/01/2026 00:00:00
-
-
-
-
-
-
-#### INICIO - 27/01/2026 15:49:02 #############################################################################################################################################
-
-     Período: 26/01/2026 a 26/01/2026
-
------------------------------------------------------------------------------------------------------------------------------
-Início Integração Pedidos de 22/01/2026 00:00:00 até 22/01/2026 00:00:00
+Início Integração Pedidos de 12/03/2026 00:00:00 até 12/03/2026 00:00:00
 -----------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-#### INICIO - 27/01/2026 15:53:42 #############################################################################################################################################
-
-     Período: 26/01/2026 a 26/01/2026
-
------------------------------------------------------------------------------------------------------------------------------
-Início Integração Pedidos de 22/01/2026 00:00:00 até 22/01/2026 00:00:00
------------------------------------------------------------------------------------------------------------------
-Início Integração Pedidos de 23/01/2026 00:00:00 até 23/01/2026 00:00:00
------------------------------------------------------------------------------------------------------------------
-Início Integração Pedidos de 24/01/2026 00:00:00 até 24/01/2026 00:00:00
-
-
-
-
-
-
-#### INICIO - 27/01/2026 16:31:10 #############################################################################################################################################
-
-     Período: 26/01/2026 a 26/01/2026
-
------------------------------------------------------------------------------------------------------------------------------
-Início Integração Pedidos de 22/01/2026 00:00:00 até 22/01/2026 00:00:00
-
-
-
-
-
-
-#### INICIO - 27/01/2026 16:33:04 #############################################################################################################################################
-
-     Período: 26/01/2026 a 26/01/2026
-
------------------------------------------------------------------------------------------------------------------------------
-Início Integração Pedidos de 22/01/2026 00:00:00 até 22/01/2026 00:00:00
-
-
-
-
-
-
-#### INICIO - 27/01/2026 16:33:53 #############################################################################################################################################
-
-     Período: 26/01/2026 a 26/01/2026
-
------------------------------------------------------------------------------------------------------------------------------
-Início Integração Pedidos de 22/01/2026 00:00:00 até 22/01/2026 00:00:00
-
-
-
-
-
-
-#### INICIO - 27/01/2026 16:34:37 #############################################################################################################################################
-
-     Período: 26/01/2026 a 26/01/2026
-
------------------------------------------------------------------------------------------------------------------------------
-Início Integração Pedidos de 22/01/2026 00:00:00 até 22/01/2026 00:00:00
-
-
-
-
-
-
-#### INICIO - 27/01/2026 16:35:12 #############################################################################################################################################
-
-     Período: 26/01/2026 a 26/01/2026
-
------------------------------------------------------------------------------------------------------------------------------
-Início Integração Pedidos de 22/01/2026 00:00:00 até 22/01/2026 00:00:00
-
-
-
-
-
-
-#### INICIO - 27/01/2026 16:35:38 #############################################################################################################################################
-
-     Período: 26/01/2026 a 26/01/2026
-
------------------------------------------------------------------------------------------------------------------------------
-Início Integração Pedidos de 22/01/2026 00:00:00 até 22/01/2026 00:00:00
------------------------------------------------------------------------------------------------------------------
-#### https://api.fbits.net/pedidos ####  (22/01/2026)
+#### https://api.fbits.net/pedidos ####  (12/03/2026)
 Página 1 (máximo de 50 pedidos por página)
 Total de pedidos retornados: 50
 -----------------------------------------------------------------------------------------------------------------
-#### https://api.fbits.net/pedidos ####  (22/01/2026)
+Integração pedido: 2000015526329850
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2603131YK9E4RT
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102836798-1
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46643085563
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 701-7161132-2337846
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 288631710
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46643051281
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102834011-1
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2603131W8T58UW
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015525551382
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015525554586
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46643100740
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2603131V979H14
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102831469-2
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102831110-1
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 17018495
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2603131UHXFB3F
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 17018436
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2603131UG0G5AK
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 702-6858974-9310613
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46642977516
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102829550-1
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46642951872
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2603131U09VAS6
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2603131TW8JYP1
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015525025176
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102828685-2
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46642919286
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102828553-1
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 17018085
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46642899394
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2603131THRGGMV
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46642850772
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015524823554
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015524779784
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102826734-1
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015524667914
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015524671816
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102824763-2
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46642721694
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102824281-2
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 17017736
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102823645-1
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2603131RD71X68
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102822691-1
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102822087-2
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46642595698
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2603131R0KPAST
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102821451-1
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46642563710
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+#### https://api.fbits.net/pedidos ####  (12/03/2026)
 Página 2 (máximo de 50 pedidos por página)
 Total de pedidos retornados: 50
 -----------------------------------------------------------------------------------------------------------------
-#### https://api.fbits.net/pedidos ####  (22/01/2026)
+Integração pedido: S-46642287785
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015524159114
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 702-4732573-7821807
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 50548373401
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 288631139
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 288631138
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015523987328
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102818888-1
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102818504-1
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015523849468
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46642124045
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102817741-1
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 701-6756727-4861069
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102817430-1
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 17016982
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102816677-1
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 17016966
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 17016957
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102815456-1
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46642282570
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 702-1908145-6513032
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015523511742
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015523489102
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 701-2420512-7256233
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46641895101
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 50547967801
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015523254036
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 702-3033650-5369851
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015523157264
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2603131KTAE6HH
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015523097582
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102810617-1
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 702-5380438-5121863
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102810194-1
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 17016411
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46641729849
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 50547772301
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 701-3691926-7278628
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46641967724
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2603131JVW57RF
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46641960334
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015522904602
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46641681015
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46641643871
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 702-4291601-8649034
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 702-2427341-9043440
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015522754228
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 701-9940984-5623469
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 50547615801
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102806395-2
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+#### https://api.fbits.net/pedidos ####  (12/03/2026)
 Página 3 (máximo de 50 pedidos por página)
 Total de pedidos retornados: 50
 -----------------------------------------------------------------------------------------------------------------
-#### https://api.fbits.net/pedidos ####  (22/01/2026)
-Página 4 (máximo de 50 pedidos por página)
-Total de pedidos retornados: 50
+Integração pedido: 2603131HN8PWDC
+Pedido gravado com sucesso!
 -----------------------------------------------------------------------------------------------------------------
-#### https://api.fbits.net/pedidos ####  (22/01/2026)
-Página 5 (máximo de 50 pedidos por página)
-Total de pedidos retornados: 41
+Integração pedido: S-46641521265
+Pedido gravado com sucesso!
 -----------------------------------------------------------------------------------------------------------------
-Início Integração Pedidos de 23/01/2026 00:00:00 até 23/01/2026 00:00:00
+Integração pedido: LU-1519370102805581-2
+Pedido gravado com sucesso!
 -----------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-#### INICIO - 27/01/2026 19:25:42 #############################################################################################################################################
-
-     Período: 26/01/2026 a 26/01/2026
-
------------------------------------------------------------------------------------------------------------------------------
-Início Integração Pedidos de 22/01/2026 00:00:00 até 22/01/2026 00:00:00
+Integração pedido: LU-1519370102805285-1
+Pedido gravado com sucesso!
 -----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2603131GVH63VH
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102804356-1
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015522330804
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102803894-1
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015522286658
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102803285-1
+Pedido gravado com sucesso!
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 702-4212507-9727404
+13/03/2026 12:02:16 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102802886-5
+13/03/2026 12:02:18 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015522191176
+13/03/2026 12:02:20 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2603131G0QE8NJ
+13/03/2026 12:02:23 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 701-6548745-5177012
+13/03/2026 12:02:25 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46641298195
+13/03/2026 12:02:27 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 17015434
+13/03/2026 12:02:29 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 701-6228204-4738618
+13/03/2026 12:02:32 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 701-4284769-4141024
+13/03/2026 12:02:34 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 288630459
+13/03/2026 12:02:36 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46641403962
+13/03/2026 12:02:39 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015521655512
+13/03/2026 12:02:41 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 702-7827909-9629818
+13/03/2026 12:02:43 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102797663-1
+13/03/2026 12:02:46 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 702-1296867-8557800
+13/03/2026 12:02:51 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46641061977
+13/03/2026 12:02:54 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102795862-1
+13/03/2026 12:02:56 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2603131D20JW1G
+13/03/2026 12:02:58 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2603131CUU5XQJ
+13/03/2026 12:03:00 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46641199752
+13/03/2026 12:03:02 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 702-7475475-2521037
+13/03/2026 12:03:05 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102793455-1
+13/03/2026 12:03:07 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102793338-1
+13/03/2026 12:03:09 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 17015157
+13/03/2026 12:03:11 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46640848867
+13/03/2026 12:03:14 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015521100564
+13/03/2026 12:03:16 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46640817085
+13/03/2026 12:03:18 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015521042928
+13/03/2026 12:03:20 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015521058154
+13/03/2026 12:03:23 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 701-2238972-9542633
+13/03/2026 12:03:25 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102791473-1
+13/03/2026 12:03:28 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015520896000
+13/03/2026 12:03:30 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015520881300
+13/03/2026 12:03:33 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 2000015520848794
+13/03/2026 12:03:35 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: LU-1519370102790499-1
+13/03/2026 12:03:37 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 288630172
+13/03/2026 12:03:39 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: S-46640966458
+13/03/2026 12:03:42 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
+-----------------------------------------------------------------------------------------------------------------
+Integração pedido: 17014794
+13/03/2026 12:07:52 - Erro Integração pedidos Wake | Etapa: Consulta ao endpoint do ATweb para buscar o parceiro | A aplicação retornou o(s) seguinte(s) erro(s): 
+Impossível conectar-se ao servidor remoto > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443 > Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 186.209.116.26:443  
